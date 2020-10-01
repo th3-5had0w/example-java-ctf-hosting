@@ -10,6 +10,14 @@ public class Main {
 		
 		System.out.println("Welcome to the Five Fives Lotto!");
 		System.out.println("Generating seed...");
+		System.out.println("Welcome to the Five Fives Lotto!");
+		System.out.println("Generating seed...");
+		System.out.println("Welcome to the Five Fives Lotto!");
+		System.out.println("Generating seed...");
+		System.out.println("Welcome to the Five Fives Lotto!");
+		System.out.println("Generating seed...");
+		System.out.println("Welcome to the Five Fives Lotto!");
+		System.out.println("Generating seed...");
 		
 		//You'll never find my seed now!
 		int sleep = ThreadLocalRandom.current().nextInt(10000);
@@ -26,6 +34,10 @@ public class Main {
 		}
 		System.out.println();
 		
+		System.out.println("You have $20, and each ticket is $1. How many tickets would you like to buy? ");
+		System.out.println("You have $20, and each ticket is $1. How many tickets would you like to buy? ");
+		System.out.println("You have $20, and each ticket is $1. How many tickets would you like to buy? ");
+		System.out.println("You have $20, and each ticket is $1. How many tickets would you like to buy? ");
 		System.out.println("You have $20, and each ticket is $1. How many tickets would you like to buy? ");
 		int numTries = Integer.parseInt(in.nextLine());
 		if (numTries > 20) {
